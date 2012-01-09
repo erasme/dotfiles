@@ -6,6 +6,13 @@ These are config files to set up a system the way I like it.
 
   git clone git://github.com/leucos/dotfiles.git ~/.dotfiles
   cd ~/.dotfiles
+
+If you don't have Ruby, install it or just run :
+
+  ./install_ruby.sh
+
+Now you can install the dotfiles :
+
   rake install
 
 You can then bootstrap your vim plugins by invoking :
