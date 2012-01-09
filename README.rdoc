@@ -1,7 +1,16 @@
 = What ?
 
-These are config files to set up a system the way we like it at ERASME
+These are the dotfiles we use in our setups at ERASME
+You'll find stuff for :
 
+- vim/gvim
+- byobu/tmux
+- htop 
+- rvm/gem/ruby/irb/pry/ap...
+- git
+
+You'll also find bash configuraions organized like SysV init scripts 
+in .bash.d
 
 = Installation
 
