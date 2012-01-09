@@ -9,7 +9,7 @@ You'll find stuff for :
 - rvm/gem/ruby/irb/pry/ap...
 - git
 
-You'll also find bash configuraions organized like SysV init scripts 
+You'll also find bash configurations organized like SysV init scripts 
 in .bash.d
 
 = Installation
