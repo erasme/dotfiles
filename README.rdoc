@@ -1,6 +1,6 @@
 = What ?
 
-These are the dotfiles we use in our setups at ERASME
+These are the dotfiles we use in our setups at ERASME.
 You'll find stuff for :
 
 - vim/gvim
