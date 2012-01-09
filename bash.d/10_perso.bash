@@ -29,7 +29,8 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-[ -n "$SSH_CLIENT" ] && text=" REMOTE "
+[ -n "$SSH_CLIENT" ] && text="#REMOTE"
+[ `logname` != `id -g -rn` ] && text=$text"#SU"
 export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$(hostname)\[\033[00m\]\[\033[1;31m\]${text}\[\033[00m\]:\[\033[01;34m\]$(last2pwd)\[\033[00m\]\$ '
 export PS1='${debian_chroot:+($debian_chroot)}\[\e[0;33m\]\u@$(hostname)\[\033[00m\]\[\033[1;31m\]${text}\[\033[00m\]:\[\033[01;34m\]$(last2pwd)\[\033[00m\]\$ '
 
