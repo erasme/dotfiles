@@ -5,6 +5,8 @@
 # Let's save the currrent path
 MYOLDPW=`pwd`
 
+[ -d ~/.vim/backup ] || mkdir ~/.vim/backup
+
 # Let's find dotfiles directory
 cd ~/.vim
 cd `pwd -P`
