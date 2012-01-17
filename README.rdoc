@@ -25,6 +25,10 @@ Now you can install the dotfiles :
 
   rake install
 
+Then, source your bashrc to use the new bash dotfiles :
+
+  source ~/.bashrc
+
 You can then bootstrap your vim plugins by invoking :
 
   bootstrap_vim.sh
