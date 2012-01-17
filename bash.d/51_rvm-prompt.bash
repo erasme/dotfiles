@@ -1,2 +1,2 @@
-PS1="\$(~/.rvm/bin/rvm-prompt) $PS1"
+PS1="\$(rvm-prompt) $PS1"
 
